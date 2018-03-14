@@ -551,7 +551,8 @@ h3.w3_head.w3_head1 span {
     border: none;
     border-bottom: 2px solid #000000;
     background: #fff;
-    text-align: center;
+	text-align: center;
+	height:400px
 }
 .agileits_service_grid_btm_left1:hover {
     cursor: default;
@@ -1495,6 +1496,24 @@ a.callbacks_nav.callbacks1_nav.prev {
 	z-index: -1;
 	position: initial;
 }
+
+.agileits_service_grid_btm_left1
+{
+	z-index: -1;
+	position: initial;
+}
+.agileits_service_grid_btm_left2
+{
+	z-index: -1;
+	position: initial;
+}
+
+.agileits_service_grid_btm_left
+{
+	z-index: -1;
+	position: initial;
+}
+
 
 .work-left-agileits-w3layouts
 {
@@ -2533,3 +2552,4 @@ a.callbacks_nav.callbacks1_nav.prev {
 	width:50px;
 	height:150px;
 }
+
