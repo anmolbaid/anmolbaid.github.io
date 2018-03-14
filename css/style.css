@@ -769,13 +769,13 @@ section.mid-w3layouts a:hover {
 	transition: all 0.5s;
 }
 .grid-1 .w3agile-text h5 {
-    font-size: 2em;
+    font-size: 1em;
     color: #fff;
     text-align: center;
     padding: 6em 0 0;
 }
 .w3agile-text.w3agile-text-small h5, .grid_w3l .w3agile-text h5 {
-    font-size: 2em;
+    font-size: 1em;
     padding: 5em 0 0;
 }
 .grid_w3l {
