@@ -499,12 +499,7 @@ h3.w3_head.w3_head1 span {
     overflow: hidden;
     position: relative;
 }
-.agileits_service_grid_btm_left1:before {
-    bottom: 0;
-    right: 0;
-    border-bottom: 2px solid #0086fe;
-    border-right: 2px solid #0086fe;
-}
+
 .agileits_service_grid_btm_left1:after, .agileits_service_grid_btm_left1:before {
     content: '';
     z-index: 2;
@@ -517,12 +512,6 @@ h3.w3_head.w3_head1 span {
     -ms-transition: all 800ms ease-in-out;
     -o-transition: all 800ms ease-in-out;
     transition: all 800ms ease-in-out;
-}
-.agileits_service_grid_btm_left1:after {
-    top: 0;
-    left: 0;
-    border-top: 2px solid #0086fe;
-    border-left: 2px solid #0086fe;
 }
 .agileits_service_grid_btm_left1:hover:after, .agileits_service_grid_btm_left1:hover:before {
     width: 100%;
@@ -2440,11 +2429,17 @@ a.callbacks_nav.callbacks1_nav.prev {
 	  display: block;
 	  margin-top:-30px;
 	}
+	.navbar-right{
+		display:none;
+	}
 	#desktop{
 		display: none;
 	}
 	#mob{
 		display: inline;
+	}
+	.navbar-nav {
+		margin: -1px -8px 0px -28px;
 	}
 }
 
@@ -2553,3 +2548,20 @@ a.callbacks_nav.callbacks1_nav.prev {
 	height:150px;
 }
 
+.navbar-toggle
+{
+	position: absolute;
+	right:0px;
+	top:0px;
+}
+
+.intro li
+{
+	display:block;
+	background: black;
+}
+
+.services
+{
+	margin-top:-10%;
+}

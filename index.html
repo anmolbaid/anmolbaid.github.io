@@ -37,10 +37,15 @@ Author: Sukanta Pal
 						  <div class="navbar-header">
 							<a class="navbar-brand" href="#"><h3 style="color:white;">Anmol Baid</h3></a>
 						  </div>
+						<button type="button" class="navbar-toggle" onclick="myfunction()" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button> 
 						  <ul class="nav navbar-nav">
 							<li><a href="index.html#home" class="active scroll" >Home</a></li>
 							<li><a href="index.html#about" class="" >About</a></li>
-							<li class="dropdown"><a href="index.html#work" class="" >Portfolio</a>
+							<li class="dropdown"><a class="" >Portfolio</a>
 							
 								<div class="dropdown-content">
 								<a href="education.html">Education</a>
@@ -221,6 +226,13 @@ Author: Sukanta Pal
 </script>
 <!-- //menu -->
 <!-- Gallery-plugin -->
+<script>
+$(document).ready(function(){
+	$(".navbar-toggle").click(function(){
+        $(".nav").toggleClass("intro");
+	});
+});
+</script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/jquery.cm-overlay.js"></script>
 		<script>
