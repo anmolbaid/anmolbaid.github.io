@@ -1,0 +1,191 @@
+<!--
+Author: Sukanta Pal
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Website of Anmol Baid.">
+			
+
+		<meta charset="UTF-8"/>
+
+<title>Anmol Baid</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Website" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="all" /><!--gallery-popup-css-->
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" /><!-- Pop-up -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--fonts-->
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+<!--//fonts-->
+
+</head>
+<body> 
+    <div class="header1" id="myHeader">        
+        <div class="w3_menu">
+
+                        <nav class="navbar navbar-inverse col-md-12">
+                                <div class="container-fluid">
+                                  <div class="navbar-header">
+                                    <a class="navbar-brand" href="#"><h3 style="color:white;">Anmol Baid</h3></a>
+                                  </div>
+                                  <ul class="nav navbar-nav">
+                                    <li><a href="index.html#home" class="active scroll" >Home</a></li>
+                                    <li><a href="index.html#about" class="" >About</a></li>
+                                    <li class="dropdown"><a href="#" class="" >Portfolio</a>
+                                    
+                                        <div class="dropdown-content">
+                                        <a href="education.html">Education</a>
+                                        <a href="work.html">Work</a>
+                                        <a href="activities.html">Activities</a>
+                                        <a href="projects.html">Projects</a>
+                                        <a href="skills.html">Skills</a>
+                                    </div>
+                                    </li>
+                                    <li><a href="index.html#gallery" class="" >Gallery</a></li>
+                                    <li><a href="./contact.html" class="" >Contact</a></li>
+        
+                                    
+        
+                                  </ul>
+                                  <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="https://www.facebook.com/AnmolAlways" class="wthree_facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://twitter.com/baid_anmol" class="wthree_twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/in/anmolbaid/" class="wthree_linkedin" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                            <li><a href="https://plus.google.com/+AnmolBaid" class="wthree_google" target="_blank" rel="noopener"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                  </ul>
+                                </div>
+                              </nav>
+				</div>
+                <div class="clearfix"> </div>
+        </div>
+        <!--footer-->
+        <div class="contact" id="contact">
+        <h3 class="w3_head w3_head1" id="head1">Contact Me <span>Get in touch with me</span></h3>
+            <div class="col-md-5 contact-agileits-w3layouts">
+            <form action="#" method="post">
+                    <input type="text" name="Your Name" placeholder="Name" required="">
+                    <input type="email" name="Your Email" placeholder="Email" required="">
+                    <input type="text" name="Phone Number" placeholder="Number" required="">
+                    <textarea name="Message" placeholder="Message" required=""></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+    
+    
+            <div class="col-md-7 contact-map-right">
+            <div id="map"></div>
+                <!-- Map-JavaScript -->
+                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>        
+                <script type="text/javascript">
+                    google.maps.event.addDomListener(window, 'load', init);
+                    function init() {
+                        var mapOptions = {
+                            zoom: 11,
+                            center: new google.maps.LatLng(22.523125, 88.348437),
+                            styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+                        };
+                        var mapElement = document.getElementById('map');
+                        var map = new google.maps.Map(mapElement, mapOptions);
+                        var marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(22.523125, 88.348437),
+                            map: map,
+                        });
+                    }
+                </script>
+            <!-- //Map-JavaScript -->
+    
+            </div>
+                <div class="clearfix"></div>
+    </div>
+    <div class="contact-info">
+     <div class="container text-center">
+        <div class="col-md-3"></div>
+        <div class="col-xs-12 col-md-3 contact-grids text-center">
+            <h5>Find me</h5>
+            <div class="w3_agileits_social_media-footer text-center">
+                <ul>
+                    
+                        <li><a href="https://www.facebook.com/AnmolAlways" class="wthree_facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://twitter.com/baid_anmol" class="wthree_twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/anmolbaid/" class="wthree_linkedin" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://plus.google.com/+AnmolBaid" class="wthree_google" target="_blank" rel="noopener"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 contact-grids contact-mid text-cemter col-xs-12">
+            <h5>Contact Info</h5>
+            <ul>
+                
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Kolkata, India</li>
+                <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:anmolbaid0@gmail.com">anmolbaid0@gmail.com</a></li>
+            </ul>
+        </div>
+        
+        <div class="clearfix"></div>
+    </div>
+    </div>
+    <div class="copy-w3-agile">
+        <p> Copyright © 2018 Anmol Baid  | Developed & Designed by Sukanta Pal </p>	
+    </div>
+    <!--//footer-->
+        <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+        <script src="js/SmoothScroll.min.js"></script>
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){		
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                });
+            });
+        </script>
+        <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){		
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+        <!-- smooth scrolling -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+            /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+            */								
+            $().UItoTop({ easingType: 'easeOutQuart' });
+            });
+        </script>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header1 = document.getElementById("myHeader");
+            var sticky = header1.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                header1.classList.add("sticky");
+              } else {
+                header1.classList.remove("sticky");
+              }
+            }
+        </script>
+    </body>
+</html>
