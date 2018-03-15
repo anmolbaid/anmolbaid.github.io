@@ -2447,6 +2447,11 @@ a.callbacks_nav.callbacks1_nav.prev {
 	.navbar-nav {
 		margin: -1px -8px 0px -28px;
 	}
+	#y1
+	{
+		height: 50%;
+		width:50%;
+	}
 }
 
   @media screen and (max-width: 600px) {
@@ -2571,3 +2576,10 @@ a.callbacks_nav.callbacks1_nav.prev {
 {
 	margin-top:-10%;
 }
+
+.work-left-agileits-w3layouts h6 {
+	font-size: 16px;
+	margin-top: 1em;
+	margin-bottom:1em;
+}
+
