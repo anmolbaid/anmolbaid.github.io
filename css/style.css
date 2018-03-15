@@ -717,16 +717,12 @@ section.mid-w3layouts a:hover {
 	-ms-border-radius: 0;
     border-radius: 0;
 }
-.prgs-w3agile-last {
-    margin-bottom: 0!important;
-}
 .progress-bar { 
     background-color: #0086fe;
 }
 .bar-grids h6 {
     font-size: 0.9em;
     color: #fff;
-    margin-bottom: 0.6em;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: capitalize;
     font-weight: 300;
@@ -1511,7 +1507,6 @@ a.callbacks_nav.callbacks1_nav.prev {
 }
 .skills-agileinfo {
     padding: 20em 0em;
-	height:100%;
 }
 }
 @media(max-width:1440px){
