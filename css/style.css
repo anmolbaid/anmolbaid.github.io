@@ -1511,7 +1511,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.edu
 	{
-		margin-top:-1.2em;
+		margin-top:1.8em;
 	}
 .contact-agileits-w3layouts {
     padding: 35px 60px;
@@ -1630,7 +1630,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.courses
 	{
-		margin:3.5em 0 0;
+		margin:5.5em 0 0;
 	}
 }
 @media(max-width:1366px){
@@ -1964,6 +1964,10 @@ a.callbacks_nav.callbacks1_nav.prev {
 		margin-top: 2em;
 		font-size: 1.8em;
 		letter-spacing: 1.5px;
+	}
+	.edu
+	{
+		margin-top: 0px;
 	}
 	h3.w3_head.w3_head1 span {
 		font-size: 11px;
@@ -2664,4 +2668,10 @@ a.callbacks_nav.callbacks1_nav.prev {
     font-size: 16px;
     letter-spacing: 0.5px;
     line-height: 30px;
+}
+
+#gallery
+{
+	margin-top:-30px;
+	
 }
