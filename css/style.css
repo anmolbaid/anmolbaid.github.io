@@ -286,9 +286,7 @@ p.banner-p-w3ls {
 .gallery_wthree, .work, .services, .skills-agileinfo, .mid-w3layouts {
 	padding: 5em 0em;
 }
-.white-agile{
-	color:#fff!important;
-}
+
 .about-left-w3ls1{
     padding: 20px;
     position: relative;
@@ -751,7 +749,6 @@ section.mid-w3layouts a:hover {
 }
 .bar-grids h4 {
     font-size: 1.6em;
-    color: #ffffff;
 	letter-spacing: 1px;
     margin-bottom: 1.4em;
     /* border-bottom: 1px dashed #ffffff; */
@@ -1511,7 +1508,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 	.edu
 	{
-		margin-top:1.8em;
+		margin-top:6em;
 	}
 .contact-agileits-w3layouts {
     padding: 35px 60px;
@@ -1632,6 +1629,10 @@ a.callbacks_nav.callbacks1_nav.prev {
 	{
 		margin:5.5em 0 0;
 	}
+	.edu
+	{
+		margin-top:3em;
+	}
 }
 @media(max-width:1366px){
 	.w3_agile_logo h1 a {
@@ -1649,6 +1650,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	.agile_banner_info {
 		margin: 20em 0 0em 57em;
 	}
+	
 }
 @media(max-width:1280px){
 	.person-info-agileits-w3layouts {
@@ -2674,4 +2676,86 @@ a.callbacks_nav.callbacks1_nav.prev {
 {
 	margin-top:-30px;
 	
+}
+
+.article{
+	margin-top: 65px;
+}
+
+.article1
+{
+	margin-top:-10px;
+	margin-left: 20px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:25px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+width:140px;
+	font-weight:bold;
+	font-size:12px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
 }
