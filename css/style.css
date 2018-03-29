@@ -1558,7 +1558,13 @@ a.callbacks_nav.callbacks1_nav.prev {
 .skills-agileinfo {
     padding: 20em 0em;
 }
+	.poem
+	{
+		position: relative;
+		left:30%;
+	}
 }
+
 @media(max-width:1440px){
 	.banner-image-w3layouts img {
 		width: 315px;
