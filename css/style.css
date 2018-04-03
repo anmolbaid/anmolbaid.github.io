@@ -1685,7 +1685,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 		width: 56%;
 	}
 	.agile_banner_info {
-		margin: 40em 0 0em 12em;
+		margin: 20em 0 0em 35em;
 	}
 	.w3_agileits_social_media ul li {
 		margin-bottom: 1.3em;
@@ -2924,6 +2924,10 @@ width:140px;
 	  /* Staggered Vertical Items ------------------------------------------------------*/
 	  .item-header {
 		top: -18%;
+	  }
+	  .gg15
+	  {
+		  height:400px;
 	  }
 	}
 
