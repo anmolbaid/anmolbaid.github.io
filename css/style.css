@@ -158,7 +158,7 @@ p.banner-p-w3ls {
     width: 35px;
     height: 35px;
     border-radius: 50px;
-    padding: 6px 0 0 0px;
+    padding: 2px 0 0 0px;
     background: black;
 	box-shadow:1px 1px 2px #3b5998;
 }
@@ -168,7 +168,7 @@ p.banner-p-w3ls {
 .w3_agileits_social_media {
     text-align: center;
     position: absolute;
-    left: 2em;
+    left: 1em;
     top: 18em;
 }
 .agileinfo_share {
@@ -666,7 +666,7 @@ h3.w3_head.w3_head1 span {
 	color:#fcfcfc;
 }
 .sevices-w3layouts-row .social-icons {
-    margin: 1em 0 0;
+    margin: 0.5em 0 0;
 }
 .sevices-w3layouts-img{
     position: absolute;
@@ -1132,7 +1132,7 @@ a.agilebtn {
 .w3_agileits_social_media-footer ul li {
     margin-bottom: 0!important;
     float: left!important;
-    margin: 0 1em 0 0!important;
+    margin: 0 1.2em 0 0!important;
 	list-style: none;
 }
 .w3_agileits_social_media-footer ul li a {
@@ -1387,7 +1387,7 @@ ul.social-slide li i{
 	height:74px;
 	background:url("https://p.w3layouts.com/demos_new/template_demo/20-06-2017/my_info-demo_Free/1502743516/web/images/img-resources.png")no-repeat;
 	display: inline-block;
-	margin:0px 15px;
+	margin:0px 12px;
 }
 ul.social-slide li i.win{
 	background-position:-6px 0px;
@@ -2976,4 +2976,8 @@ width:140px;
 		margin-left:-10px;
 		margin-top: 10px;
 	}
+	}
+
+	.bar-grids h4 i{
+		color:orange;
 	}
