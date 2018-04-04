@@ -309,6 +309,7 @@ Passions <span></span></h3>
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 	<script>
+	 $(document).ready(function(){
 	const items = document.querySelectorAll('.item'),
   controls = document.querySelectorAll('.control'),
   headerItems = document.querySelectorAll('.item-header text-center'),
@@ -378,6 +379,7 @@ const slider = {
 
 let intervalF = setInterval(slider.nextSlide, interval);
 slider.init();
+});
 	</script>
 	<script>
             $(document).ready(function(){
