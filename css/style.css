@@ -1556,11 +1556,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 	position: initial;
 }
 
-	.poem
-	{
-		position: relative;
-		left:30%;
-	}
+	
 }
 
 @media(max-width:1440px){
@@ -2435,6 +2431,11 @@ a.callbacks_nav.callbacks1_nav.prev {
 	#double{
 		height:100px;
 	}
+	.person-info-agileits-w3layouts p {
+		
+		font-size: 10px;
+		
+	}
 }
 
 .logos{
@@ -2841,7 +2842,11 @@ width:140px;
 	  .item-header {
 		top: -18%;
 	  }
-	  
+	  .poem
+	{
+		position: relative;
+		left:30%;
+	}
 
 	}
 	@media(max-width:500px){
@@ -2855,8 +2860,18 @@ width:140px;
 			float: left;
 		}
 		.card{
-			height:291px;
+			height:302px;
 		}
+		.article1
+		{
+	margin-top:-10px;
+	margin-left: -10px;
+		}
+		.poem
+	{
+		position: relative;
+		left:4%;
+	}
 	}
 	#myCarousel
 {
