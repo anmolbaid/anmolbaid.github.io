@@ -1526,7 +1526,12 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 /*--responsive--*/
 @media(max-width:1990px){
-	.skills-agileinfo
+     .poem
+	{
+		position: relative;
+		left:34%;
+	}	
+.skills-agileinfo
 	{
     padding: 0em 0em;
 	}
