@@ -926,6 +926,83 @@ a.agilebtn {
 	transform: scale(1,1);
 }
 /*lightbox*/
+.fourth-content {
+	padding: 5px;
+}
+
+.fourth-content .container-fluid {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.fourth-content .container-fluid .col-md-4 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.fourth-content .item {
+	margin: 10px;
+}
+
+.fourth-content .item img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.fourth-content .item .thumb {
+	position: relative;
+}
+
+.fourth-content .item .hover-effect {
+	text-align: left;
+	position: absolute;
+	color: #fff;
+	background-color: rgba(0,0,0,0.95);
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.8s;
+}
+
+.fourth-content .item:hover .hover-effect {
+	opacity: 1;
+	visibility: visible;
+}
+
+.fourth-content .item .hover-effect .hover-content {
+	transform: translateY(-50%);
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    padding: 30px;
+}
+
+.fourth-content .item .hover-effect h2 {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 0.5px;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.fourth-content .item .hover-effect p {
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
 /* overlay - centered modal dialog*/
 .overlay-visible{
     overflow:hidden !important;
@@ -2103,7 +2180,9 @@ a.callbacks_nav.callbacks1_nav.prev {
 		display: block;
 		padding: 10px 10px;
 	}
-
+	.fourth-content{
+		margin-top:100px; 
+	}
 }
 @media(max-width:767px){
 	 .video
@@ -2562,7 +2641,11 @@ a.callbacks_nav.callbacks1_nav.prev {
 	.full-height-w3 h5 {
 		padding: 6em 0 0!important;
 	}
-	
+	.fourth-content .container-fluid .col-md-4 {
+		padding-right: 0px;
+		margin-left: -30px;
+		height:100px;
+	}
 }
 
 .sticky {
@@ -2973,8 +3056,16 @@ width:140px;
 		position: relative;
 		left:30%;
 	}
-
+	.fourth-content .container-fluid .col-md-4 {
+		padding-right: 0px;
+		padding-left: 4.5%;
+		height:200px;
 	}
+	.fourth-content .item:hover .hover-effect {
+		opacity: 0;
+		visibility: hidden;
+	}	
+}
 	@media(max-width:500px){
 		.card {
 			position: relative;
@@ -3080,82 +3171,6 @@ width:140px;
 		color:orange;
 	}
 
-.fourth-content {
-	padding: 5px;
-}
 
-.fourth-content .container-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
-}
-
-.fourth-content .container-fluid .col-md-4 {
-	padding-right: 0px;
-	padding-left: 0px;
-}
-
-.fourth-content .item {
-	margin: 10px;
-}
-
-.fourth-content .item img {
-	max-width: 100%;
-	overflow: hidden;
-}
-
-.fourth-content .item .thumb {
-	position: relative;
-}
-
-.fourth-content .item .hover-effect {
-	text-align: left;
-	position: absolute;
-	color: #fff;
-	background-color: rgba(0,0,0,0.95);
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-	opacity: 0;
-	visibility: hidden;
-	transition: all 0.8s;
-}
-
-.fourth-content .item:hover .hover-effect {
-	opacity: 1;
-	visibility: visible;
-}
-
-.fourth-content .item .hover-effect .hover-content {
-	transform: translateY(-50%);
-    position: absolute;
-    text-align: left;
-    width: 100%;
-    top: 50%;
-    left: 0;
-    padding: 30px;
-}
-
-.fourth-content .item .hover-effect h2 {
-	font-size: 18px;
-	text-transform: uppercase;
-	font-weight: 700;
-	color: #fff;
-	letter-spacing: 0.5px;
-	border-bottom: 1px solid #fff;
-	display: inline-block;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	margin-top: 0px;
-}
-
-.fourth-content .item .hover-effect p {
-	font-size: 13px;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	line-height: 22px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
-}
 
 
