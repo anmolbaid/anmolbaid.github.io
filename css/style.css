@@ -1672,7 +1672,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 }
 .video
 	{
-		margin-top:60px;
+		
 		height:30vh;
 	}
 	
@@ -1755,9 +1755,9 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
     .video
 	{
-		margin-top:60px;
+	
 		height:380px;
-        margin-bottom:10px;
+
 	}
 }
 @media(max-width:1366px){
@@ -2187,7 +2187,7 @@ a.callbacks_nav.callbacks1_nav.prev {
 @media(max-width:767px){
 	 .video
 	{
-		margin-top:60px;
+	
 		height:200px;
 	}
 }
@@ -3171,6 +3171,16 @@ width:140px;
 		color:orange;
 	}
 
+	.mtv
+	{
+		margin-top:40px; 
+		margin-bottom: 20px;
+	}
 
+	.mlogo
+	{
+		width:50%;
+		margin-bottom: 30px;	
+	}
 
 
