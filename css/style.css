@@ -959,8 +959,7 @@ a.agilebtn {
 #cm-wrap *
 {
     -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
+   
     
 }
 #cm-wrap .cm-box,
@@ -1330,8 +1329,7 @@ a.agilebtn {
 #slider3-pager a,#slider4-pager a ,#slider5-pager a  {
   display: inline-block;
 }
-#slider3-pager span,#slider4-pager span,#slider5-pager span{
-}
+
 #slider3-pager span,#slider4-pager span,#slider5-pager span{
 	width:100px;
 	height:15px;
