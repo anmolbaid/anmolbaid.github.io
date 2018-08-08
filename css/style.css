@@ -1525,7 +1525,12 @@ a.callbacks_nav.callbacks1_nav.prev {
 	}
 /*--responsive--*/
 @media(max-width:1990px){
-	.t1 p
+    .doc
+    {
+        height:900px;    
+    
+    }	
+.t1 p
 	{
 		font-size: 1.3em;
 	}
@@ -2180,6 +2185,10 @@ a.callbacks_nav.callbacks1_nav.prev {
 	{
 		margin-bottom:20px; 
 	}
+    .doc
+    {
+        height:600px;
+    }
 	.gal
 	{
 		width:100%;
