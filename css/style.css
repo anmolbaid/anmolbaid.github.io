@@ -1128,7 +1128,7 @@ a.agilebtn {
 .resume{
 	outline: none;
 	border: none;
-	margin:auto;
+	margin:40px auto;
     padding: 10px 40px;
     background: #171717;
     color: #fff;
@@ -1141,16 +1141,16 @@ a.agilebtn {
     -o-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
 }
-
-.resume:hover{
-	background: #ffffff;
-    color: #000;
-    transition: .5s ease-in-out;
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    -ms-transition: .5s ease-in-out;
+.resume:hover
+{
+    color:black;
+    background: white;
 }
+
+.resume:visited {
+  color: white;
+}
+
 /*--placeholder-color--*/
 
 
