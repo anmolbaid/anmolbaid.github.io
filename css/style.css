@@ -133,7 +133,8 @@ label{
 	opacity: 0.06;
 }
 .agile_banner_info {
-    margin: 11em 0 0em 14em;
+	position: fixed;
+    margin: 10em 0 0em 14em;
     text-align: left;
 }
 p.banner-p-w3ls {
@@ -1124,7 +1125,35 @@ a.agilebtn {
     -o-transition: .5s ease-in-out;
     -ms-transition: .5s ease-in-out;
 }
+.resume{
+	outline: none;
+	border: none;
+	margin:auto;
+    padding: 10px 40px;
+    background: #171717;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    letter-spacing: .5px;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+}
+
+.resume:hover{
+	background: #ffffff;
+    color: #000;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+}
 /*--placeholder-color--*/
+
+
 
 ::-webkit-input-placeholder{
 	color:rgba(255, 255, 255, 0.65);
@@ -1428,7 +1457,10 @@ ul.social-slide li i.mac{
 @media screen and (max-width: 600px) {
   .callbacks_nav {
     top: 47%;
-    }
+	}
+	.resume{
+		padding:5px 10px;
+	}
 }
 .callbacks_tabs a{
  visibility: hidden;
@@ -3053,6 +3085,7 @@ width:140px;
 {
 	background: black;
 	margin-top:10em;
+	margin-bottom: 10em;
 	width:100%;
 	height:60%;
 }
@@ -3061,7 +3094,7 @@ width:140px;
 	top: 0%;
 	width:33%;
 	line-height: 180%;
-	left: 55%;
+	left: 60%;
 
     padding-bottom: 30px;
 }
