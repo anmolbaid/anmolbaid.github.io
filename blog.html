@@ -36,7 +36,7 @@
 ul.s_posts {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-top: 3em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -65,6 +65,9 @@ li.s_post .s_content {
 }
 /* Responsive Breakpoints based on HubSpot Boilerplate CSS */
 @media (max-width: 767px) {
+  ul.s_posts {
+  margin-top: 3em;
+}
   li.s_post {
     flex-basis: 50%;
   }
@@ -73,6 +76,47 @@ li.s_post .s_content {
   li.s_post {
     flex-basis: 100%;
   }
+}
+.ico
+{
+	float: right;
+	margin-right:10px; 
+}
+.icons
+{
+	margin-left: 10px;
+}
+.fas {
+  padding: 10px;
+  font-size: 16px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fas:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
 }
 </style>
 </head>
@@ -132,10 +176,21 @@ li.s_post .s_content {
   <li class="s_post">
     <div class="s_post-inner">
       <div class="s_image" style="background-image: url(./img/fifth_big_item.jpg);"></div>
-      <div class="s_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc. Nulla quis accumsan arcu, vitae laoreet mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
-    <button class="btn btn-info" style=" margin-right:10px; position: absolute; bottom: 10px; right:0px;">
+      
+      <div class="s_content"><h4 style="margin-bottom: 2px;"><i class="fa fa-calendar" aria-hidden="true"></i> 24th March 2019
+      	
+        </h4>
+      	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc. Nulla quis accumsan arcu, vitae laoreet mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+      <br><br>
+      	<div style=" margin-right:10px; margin-top:10px; position: absolute; bottom: 10px; width: 100%; ">
+    <a href="#" class="fa fa-facebook icons fas"></a>
+		<a href="#" class="fa fa-twitter icons fas"></a>
+    	<a href="#" class="fa fa-linkedin icons fas"></a>
+    <button class="btn btn-success ico" >
     	Read More
     </button>
+	</div>
+    
     </div>
   </li>
   
@@ -143,10 +198,16 @@ li.s_post .s_content {
   <li class="s_post">
     <div class="s_post-inner">
       <div class="s_image" style="background-image: url(./img/eight_big_item.jpg);"></div>
-      <div class="s_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc. Nulla quis accumsan arcu, vitae laoreet mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur venenatis odio risus, fringilla dictum purus rhoncus non. Donec sodales convallis fermentum. Proin rutrum cursus erat, in finibus sapien tristique at.</div>     
-    <button class="btn btn-info" style=" margin-right:10px; position: absolute; bottom: 10px; right:0px;">
+      <div class="s_content"><h4 style="margin-bottom: 2px;"><i class="fa fa-calendar" aria-hidden="true"></i> 24th March 2019</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc. Nulla quis accumsan arcu, vitae laoreet mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur venenatis odio risus, fringilla dictum purus rhoncus non. Donec sodales convallis fermentum. Proin rutrum cursus erat, in finibus sapien tristique at.</div>  
+      <br> <br>
+     <div style=" margin-right:10px; margin-top:10px; position: absolute; bottom: 10px;  width: 100%;">
+    <a href="#" class="fa fa-facebook icons fas"></a>
+		<a href="#" class="fa fa-twitter icons fas"></a>
+    	<a href="#" class="fa fa-linkedin icons fas"></a>
+    <button class="btn btn-success ico" >
     	Read More
     </button>
+	</div>
     </div>
 
   </li>
@@ -155,10 +216,16 @@ li.s_post .s_content {
   <li class="s_post">
     <div class="s_post-inner">
       <div class="s_image" style="background-image: url(./img/second_big_item.jpg);"></div>
-      <div class="s_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc.</div>
-    	<button class="btn btn-info" style=" margin-right:10px; position: absolute; bottom: 10px; right:0px;">
+      <div class="s_content"><h4 style="margin-bottom: 2px;"><i class="fa fa-calendar" aria-hidden="true"></i> 24th March 2019</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc.</div>
+    	      <br><br>
+    	<div style=" margin-right:10px; margin-top:10px; position: absolute; bottom: 10px; width: 100%; ">
+    <a href="#" class="fa fa-facebook icons fas"></a>
+		<a href="#" class="fa fa-twitter icons fas"></a>
+    	<a href="#" class="fa fa-linkedin icons fas"></a>
+    <button class="btn btn-success ico" >
     	Read More
     </button>
+	</div>
     </div>
   </li>
   
@@ -166,10 +233,16 @@ li.s_post .s_content {
   <li class="s_post">
     <div class="s_post-inner">
       <div class="s_image" style="background-image: url(./img/first_big_item.jpg);"></div>
-      <div class="s_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc.</div>
-    <button class="btn btn-info" style=" margin-right:10px; position: absolute; bottom: 10px; right:0px;">
+      <div class="s_content"><h4 style="margin-bottom: 2px;"><i class="fa fa-calendar" aria-hidden="true"></i> 24th March 2019</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc.</div>
+          <br><br>
+    <div style=" margin-right:10px; margin-top:10px; position: absolute; bottom: 10px; width: 100%; ">
+    <a href="#" class="fa fa-facebook icons fas"></a>
+		<a href="#" class="fa fa-twitter icons fas"></a>
+    	<a href="#" class="fa fa-linkedin icons fas"></a>
+    <button class="btn btn-success ico" >
     	Read More
     </button>
+	</div>
     </div>
   </li>
   
@@ -177,23 +250,37 @@ li.s_post .s_content {
   <li class="s_post">
     <div class="s_post-inner">
       <div class="s_image" style="background-image: url(./img/sixth_big_item.jpg);"></div>
-      <div class="s_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-    <button class="btn btn-info" style=" margin-right:10px; position: absolute; bottom: 10px; right:0px;">
+      <div class="s_content"><h4 style="margin-bottom: 2px;"><i class="fa fa-calendar" aria-hidden="true"></i> 24th March 2019</h4> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+          <br><br>
+   	<div style=" margin-right:10px; margin-top:10px; position: absolute; bottom: 10px; width: 100%; ">
+    <a href="#" class="fa fa-facebook icons fas"></a>
+		<a href="#" class="fa fa-twitter icons fas"></a>
+    	<a href="#" class="fa fa-linkedin icons fas"></a>
+    <button class="btn btn-success ico" >
     	Read More
     </button>
+	</div>
     </div>
   </li>
   
   <li class="s_post">
     <div class="s_post-inner">
       <div class="s_image" style="background-image: url(./img/first_big_item.jpg);"></div>
-      <div class="s_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc.</div>
-    <<button class="btn btn-info" style=" margin-right:10px; position: absolute; bottom: 10px; right:0px;">
+      <div class="s_content"><h4 style="margin-bottom: 2px;"><i class="fa fa-calendar" aria-hidden="true"></i> 24th March 2019</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In neque eros, rutrum sed cursus in, placerat in urna. Morbi libero erat, molestie in sem non, elementum pharetra nunc.</div>
+    <br>
+    <br>
+    <div style=" margin-right:10px; margin-top:10px; position: absolute; bottom: 10px; width: 100%; ">
+    <a href="#" class="fa fa-facebook icons fas"></a>
+		<a href="#" class="fa fa-twitter icons fas"></a>
+    	<a href="#" class="fa fa-linkedin icons fas"></a>
+    <button class="btn btn-success ico" >
     	Read More
     </button>
+	</div>
     </div>
     
   </li>
+<!--Sample Data Copy <li> to </li>-->
 </ul>
 
 
