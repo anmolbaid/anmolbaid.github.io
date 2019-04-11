@@ -411,6 +411,9 @@ p.banner-p-w3ls {
     letter-spacing: 1px;
     color: #303030;
 }
+.work-left-agileits-w3layouts h5 {
+	text-align: center;
+}
 .work-left-agileits-w3layouts h6 i{
     color: #ecb731;
 	padding-right:8px;
@@ -446,7 +449,9 @@ p.banner-p-w3ls {
     color: #777;
     font-size: 16px;
     letter-spacing: 0.5px;
-    line-height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 1rem; 
 }
 /*-- //works --*/
 /*-- services --*/
@@ -3164,7 +3169,7 @@ width:140px;
 	}
 	.carousel-caption p{
 		/* display:none; */
-		text-align: left;
+		text-align: left;-
 	}
 	}
 
