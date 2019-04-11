@@ -2,7 +2,7 @@
 Author: Sukanta Pal
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow-x:hidden;">
 <head>
 	<meta name="description" content="Website of Anmol Baid.">
 			
@@ -35,345 +35,239 @@ Author: Sukanta Pal
 
   gtag('config', 'UA-123402132-1');
 </script>
+<style>
+.module {
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+}
+
+.module__heading {
+  margin-top: -1.5rem;
+  margin-right: -1.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: -1.5rem;
+  padding: 0.75rem;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.module__heading--a {
+  background-color: #6e1e52;
+}
+
+.module__heading--b {
+  background-color: #f7d8a7;
+}
+
+.module__heading--c {
+  background-color: #f3883c;
+}
+
+.module__heading--d {
+  background-color: #b7235a;
+}
+
+/* Pattern stuff */
+.custom-bullet {
+  margin-left: 0;
+  list-style: none;
+  counter-reset: counter;
+}
+.custom-bullet > li:before {
+  counter-increment: counter;
+  content: counter(counter);
+}
+
+.custom-bullet--a {
+  position: relative;
+}
+.custom-bullet--a > li:before {
+  position: relative;
+  display: inline-block;
+  z-index: 100;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 3px solid #6e1e52;
+  line-height: 1.0rem;
+  text-align: center;
+  color: #6e1e52;
+  background-color: white;
+  border-radius: 100em;
+  counter-increment: counter;
+  content: counter(counter);
+}
+.custom-bullet--a > li:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 90;
+  left: 0.55rem;
+  margin-left: 2.5px;
+  border-left: 3px solid #6e1e52;
+  content: "";
+}
+.custom-bullet--a > li:last-child:before {
+  margin-bottom: 0;
+}
+@media(max-width:650px){
+    .module
+    {
+        width:100%;
+        padding:0rem;
+        margin-top:10px; 
+    }
+}
+</style>
 </head>
 <body>
-        <div class="header1" id="myHeader">
-				<div class="w3_menu">
 
-                        <nav class="navbar navbar-inverse navbar-fixed-top col-md-12">
-                                <div class="container-fluid">
-                                  <div class="navbar-header">
-                                    <a class="navbar-brand" href="http://www.anmolbaid.com"><h3 style="color:white;">Anmol Baid</h3></a>
-                                  </div>
-                                  <button type="button" class="navbar-toggle" onclick="myfunction()" data-toggle="collapse" data-target="#myNavbar">
-                                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                      </button> 
-                                  <ul class="nav navbar-nav">
-                                    <li><a href="http://www.anmolbaid.com" class="" >Home</a></li>
-                                    <li><a href="about.html" class="" >About</a></li>
-                                    <li class="dropdown"><a href="index.html#work" class="" >Portfolio</a>
-                                    
-                                        <div class="dropdown-content">
-                                        <a href="education.html">Education</a>
-                                        <a href="work.html">Work</a>
-                                        <a href="activities.html">Activities</a>
-                                        <a href="projects.html">Projects</a>
-                                        <a href="skills.html">Skills</a>
-                                        <a href="testimonials.html">Testimonials</a>
-                                        <a href="recognitions.html">Recognitions</a>
-                                        <a href="writings.html">Writings</a>
-                                    </div>
-                                    </li>
-                                    <!-- <li><a href="passions.html" class="">Passions</a></li> -->
-                                    <li><a href="gallery.html" class="" >Gallery</a></li>
-					  <li><a href="mtv.html" class="" >#GetAJob</a></li>
-                                    <li><a href="./contact.html" class="" >Contact</a></li>
-					  <li><a href="./guide.html" class="" >DM LearnBook</a></li>
         
-                                    
+        <div class="header1" id="myHeader">        
+                <div class="w3_menu">
         
-                                  </ul>
-                                  <ul class="nav navbar-nav navbar-right">
-                                            <li><a href="https://www.facebook.com/AnmolAlways" class="wthree_facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://twitter.com/baid_anmol" class="wthree_twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.linkedin.com/in/anmolbaid/" class="wthree_linkedin" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://plus.google.com/+AnmolBaid" class="wthree_google" target="_blank" rel="noopener"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                                            <li><a href="https://www.instagram.com/anmolalways/?hl=en" class="wthree_instagram" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                </div>
-                              </nav>
-				</div>
-                <div class="clearfix"> </div>
-        </div>
-        <!--skills -->
-<div class="skills-agileinfo" id="skills">
-        <div class="container">
-            <h3 class="w3_head w3_head1 white-agile skill"><i class="fa fa-line-chart"></i>My Skills <span>My special expertise</span></h3>
-                    <div class="modal-spa">
-                        <div class="skills"> 
-                            <div class="col-md-6 bar-grids bargrids-left">
-                                <h4> Business Development Skills </h4>
-                                      
-<div class="skillbar clearfix " data-percent="70%">
-	<div class="skillbar-title" style="background: #d35400;"><span>Feedback analysis</span></div>
-	<div class="skillbar-bar" style="background: #d35400;"></div>
-	<div class="skill-bar-percent">70%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="95%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Implementation</span></div>
-	<div class="skillbar-bar" style="background: #2980b9;"></div>
-	<div class="skill-bar-percent">95%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="85%"> 
-	<div class="skillbar-title" style="background: #2c3e50;"> <span>Execution</span></div>
-    <div class="skillbar-bar" style="background: #2c3e50;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: #46465e;"><span>Ideation</span></div>
-	<div class="skillbar-bar" style="background: #46465e;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="65%">
-	<div class="skillbar-title" style="background: orange;"><span>Sales</span></div>
-	<div class="skillbar-bar" style="background:orange;"></div>
-	<div class="skill-bar-percent">65%</div>
-</div> <!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="85%">
-	<div class="skillbar-title" style="background:#a07543; ;"><span>Negotiations</span></div>
-	<div class="skillbar-bar" style="background: #a07543;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div> <!-- End Skill Bar -->
-                            </div> 
-                            <div class="col-md-6 bar-grids  w3-agile">
-                                <h4> Marketing Skills </h4>
-                              
-                                <div class="skillbar clearfix " data-percent="85%"> 
-                                    <div class="skillbar-title" style="background: #2c3e50; width:180px;"> <span>Campaign Marketing</span></div>
-                                    <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="90%">
-                                    <div class="skillbar-title" style="background: #2980b9; width:180px;"><span>Social media marketing</span></div>
-                                    <div class="skillbar-bar" style="background: #2980b9;"></div>
-                                    <div class="skill-bar-percent">90%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="95%">
-                                    <div class="skillbar-title" style="background: #d35400;"><span>Communication</span></div>
-                                    <div class="skillbar-bar" style="background: #d35400;"></div>
-                                    <div class="skill-bar-percent">95%</div>
-                                </div> <!-- End Skill Bar -->
-                                
-                                <div class="skillbar clearfix " data-percent="75%">
-                                    <div class="skillbar-title" style="background:#a07543; ;"><span>Client Marketing</span></div>
-                                    <div class="skillbar-bar" style="background: #a07543;"></div>
-                                    <div class="skill-bar-percent">75%</div>
-                                </div> 
-                                <div class="skillbar clearfix " data-percent="70%">
-                                    <div class="skillbar-title" style="background: #46465e; width:180px;"><span>Traditional Marketing</span></div>
-                                    <div class="skillbar-bar" style="background: #46465e;"></div>
-                                    <div class="skill-bar-percent">70%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="95%">
-                                    <div class="skillbar-title" style="background: orange;"><span>Branding</span></div>
-                                    <div class="skillbar-bar" style="background:orange;"></div>
-                                    <div class="skill-bar-percent">95%</div>
-                                </div> <!-- End Skill Bar -->
-                                
-                            </div>
-                            <div class="clearfix"> </div>	
+                                <nav class="navbar navbar-inverse navbar-fixed-top col-md-12">
+                                        <div class="container-fluid">
+                                          <div class="navbar-header">
+                                            <a class="navbar-brand" href="http://www.anmolbaid.com"><h3 style="color:white;">Anmol Baid</h3></a>
+                                          </div>
+                                          <button type="button" class="navbar-toggle" onclick="myfunction()" data-toggle="collapse" data-target="#myNavbar">
+                                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span> 
+                              </button> 
+                                          <ul class="nav navbar-nav">
+                                            <li><a href="http://www.anmolbaid.com" class="active scroll" >Home</a></li>
+                                            <li><a href="about.html" class="" >About</a></li>
+                                            <li class="dropdown"><a href="#" class="" >Portfolio</a>
+                                            
+                                                <div class="dropdown-content">
+                                                <a href="education.html">Education</a>
+                                                <a href="work.html">Work</a>
+                                                <a href="activities.html">Activities</a>
+                                                <a href="projects.html">Projects</a>
+                                                <a href="skills.html">Skills</a>
+                                                <a href="testimonials.html">Testimonials</a>
+                                                <a href="recognitions.html">Recognitions</a>
+                                                <a href="writings.html">Writings</a>
+                                              </div>
+                                            </li>
+                                            <!-- <li><a href="passions.html" class="">Passions</a></li> -->
+                                            <li><a href="gallery.html" class="" >Gallery</a></li>
+                                            <li><a href="mtv.html" class="" >#GetAJob</a></li>
+                                            <li><a href="./contact.html" class="" >Contact</a></li>
+						  <li><a href="./guide.html" class="" >DM LearnBook</a></li>
+                
+                                            
+                
+                                          </ul>
+                                          <ul class="nav navbar-nav navbar-right">
+                                                    <li><a href="https://www.facebook.com/AnmolAlways" class="wthree_facebook" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://twitter.com/baid_anmol" class="wthree_twitter" target="_blank" rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/in/anmolbaid/" class="wthree_linkedin" target="_blank" rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://plus.google.com/+AnmolBaid" class="wthree_google" target="_blank" rel="noopener"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                                    <li><a href="https://www.instagram.com/anmolalways/?hl=en" class="wthree_instagram" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                  </ul>
+                                        </div>
+                                      </nav>
                         </div>
-                        <br>
-                            <br>
-                            <br>
-                        <div class="skills"> 
-                            <div class="col-md-6 bar-grids bargrids-left">
-                                <h4>Management </h4>
-                                      
-<div class="skillbar clearfix " data-percent="95%">
-	<div class="skillbar-title" style="background: #d35400;"><span>
-        Leadership</span></div>
-	<div class="skillbar-bar" style="background: #d35400;"></div>
-	<div class="skill-bar-percent">95%</div>
-</div> <!-- End Skill Bar -->
+                        <div class="clearfix"> </div>
+                </div>
+    
+                <div class="work" id="work">
+                  <div class="container">         
 
-<div class="skillbar clearfix " data-percent="85%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Problem Solving</span></div>
-	<div class="skillbar-bar" style="background: #2980b9;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="85%"> 
-	<div class="skillbar-title" style="background: #2c3e50;"> <span>Strategy</span></div>
-    <div class="skillbar-bar" style="background: #2c3e50;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: #46465e;"><span>Networking</span></div>
-	<div class="skillbar-bar" style="background: #46465e;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: orange;"><span>Innovative</span></div>
-	<div class="skillbar-bar" style="background:orange;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="85%">
-	<div class="skillbar-title" style="background:#a07543; ;"><span>Team Building</span></div>
-	<div class="skillbar-bar" style="background: #a07543;"></div>
-	<div class="skill-bar-percent">85%</div>
-</div> <!-- End Skill Bar -->
-                            </div> 
-                           
-                            <div class="col-md-6 bar-grids  w3-agile">
-                                <h4><i class="fa fa-mental-skill"></i> Soft Skills </h4>
-                                
-                                <div class="skillbar clearfix " data-percent="85%"> 
-                                    <div class="skillbar-title" style="background: #2c3e50;"> <span>Creativity</span></div>
-                                    <div class="skillbar-bar" style="background: #2c3e50;"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="85%">
-                                    <div class="skillbar-title" style="background: #2980b9; width:180px;"><span>Problem Solving Attitude</span></div>
-                                    <div class="skillbar-bar" style="background: #2980b9;"></div>
-                                    <div class="skill-bar-percent">85%</div>
-                                </div> <!-- End Skill Bar -->
-                                
-                               
-                                <div class="skillbar clearfix " data-percent="95%">
-                                    <div class="skillbar-title" style="background: #d35400;"><span>Volunteering</span></div>
-                                    <div class="skillbar-bar" style="background: #d35400;"></div>
-                                    <div class="skill-bar-percent">95%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="90%">
-                                    <div class="skillbar-title" style="background: #46465e;"><span>Critical Thinking</span></div>
-                                    <div class="skillbar-bar" style="background: #46465e;"></div>
-                                    <div class="skill-bar-percent">90%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="95%">
-                                    <div class="skillbar-title" style="background: orange;"><span>Confidence</span></div>
-                                    <div class="skillbar-bar" style="background:orange;"></div>
-                                    <div class="skill-bar-percent">95%</div>
-                                </div> <!-- End Skill Bar -->
-                                <div class="skillbar clearfix " data-percent="90%">
-                                    <div class="skillbar-title" style="background:#a07543; ;"><span>Work Ethic</span></div>
-                                    <div class="skillbar-bar" style="background: #a07543;"></div>
-                                    <div class="skill-bar-percent">90%</div>
-                                </div> 
-                            </div>
-                            <div class="clearfix"> </div>	
-                            <br>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="skills"> 
-                            <div class="col-md-3"></div>
-                            <div class="col-md-6 bar-grids bargrids-left">
-                                <h4>Communications</h4>
-                                      
-<div class="skillbar clearfix " data-percent="95%">
-	<div class="skillbar-title" style="background: #d35400;"><span>
-        Content Writing</span></div>
-	<div class="skillbar-bar" style="background: #d35400;"></div>
-	<div class="skill-bar-percent">95%</div>
-</div> <!-- End Skill Bar -->
-
-<div class="skillbar clearfix " data-percent="75%"> 
-	<div class="skillbar-title" style="background: #2c3e50;"> <span>Advertising</span></div>
-    <div class="skillbar-bar" style="background: #2c3e50;"></div>
-	<div class="skill-bar-percent">75%</div>
-</div> 
-
-<div class="skillbar clearfix " data-percent="80%">
-	<div class="skillbar-title" style="background: #2980b9;"><span>Public Relations</span></div>
-	<div class="skillbar-bar" style="background: #2980b9;"></div>
-	<div class="skill-bar-percent">80%</div>
-</div> <!-- End Skill Bar -->
-
-<!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="90%">
-	<div class="skillbar-title" style="background: orange;"><span>Public Speaking</span></div>
-	<div class="skillbar-bar" style="background:orange;"></div>
-	<div class="skill-bar-percent">90%</div>
-</div> <!-- End Skill Bar -->
-<div class="skillbar clearfix " data-percent="80%">
-	<div class="skillbar-title" style="background: #46465e;"><span>Media Management</span></div>
-	<div class="skillbar-bar" style="background: #46465e;"></div>
-	<div class="skill-bar-percent">80%</div>
-</div> <!-- End Skill Bar -->
-
-
-                            </div> 
-                           
-                           
-                            <div class="clearfix"> </div>	
-                            
-                        </div>
-                    </div> 
-            </div> 
-    </div> 
-    <!-- //skills -->
+                    <h3 class="w3_head w3_head1 white-agile skill"><i class="fa fa-line-chart"></i>My Skills <span>My special expertise</span></h3>
+		<div class="work-info-agileits">
+              <!-- <div class="col-md-1"></div> -->
+      
+            <div class="col-md-4 col-xs-12">
+                <section class="module">
   
-   
-    <div class="clearfix"></div>
-        <script src="js/SmoothScroll.min.js"></script>
-        <!-- start-smoth-scrolling -->
-        <script type="text/javascript" src="js/move-top.js"></script>
-        <script type="text/javascript" src="js/easing.js"></script>
-        <script type="text/javascript">
-            jQuery(document).ready(function($) {
-                $(".scroll").click(function(event){		
-                    event.preventDefault();
-                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-                });
-            });
-        </script>
-        <!-- start-smoth-scrolling -->
-            <!-- smooth scrolling -->
-            <script type="text/javascript">
-                $(document).ready(function() {
-                /*
-                    var defaults = {
-                    containerID: 'toTop', // fading element id
-                    containerHoverID: 'toTopHover', // fading element hover id
-                    scrollSpeed: 1200,
-                    easingType: 'linear' 
-                    };
-                */								
-                $().UItoTop({ easingType: 'easeOutQuart' });
-                });
-            </script>
-        <!-- //smooth scrolling -->
- 
-
-        <script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
-<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-<script>
-        $(document).ready(function(){
-            $(".navbar-toggle").click(function(){
-                $(".nav").toggleClass("intro");
-            });
-        });
-        </script>
-
-        <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-        <script>
-            window.onscroll = function() {myFunction()};
-            
-            var header1 = document.getElementById("myHeader");
-            var sticky = header1.offsetTop;
-            
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                header1.classList.add("sticky");
-              } else {
-                header1.classList.remove("sticky");
-              }
-            }
-        </script>
-    <script>
-    jQuery(document).ready(function(){
+                    <h1 class="module__heading module__heading--a">Marketing</h1>
+                  
+                    <ol class="custom-bullet custom-bullet--a">
+                      <li>Advertising</li>
+                      <li>Branding</li>
+                      <li>Product/Service Marketing</li>
+                      <li>Social Media Marketing</li>
+                      <li>Communication</li>
+                    </ol>
+                    
+                  </section>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <section class="module">
+  
+                    <h1 class="module__heading module__heading--a">Management</h1>
+                  
+                    <ol class="custom-bullet custom-bullet--a">
+                      <li>Leadership</li>
+                      <li>Team Work</li>
+                      <li>Problem Solving</li>
+                      <li>Business Development</li>
+                      <li>Strategy & Ideation</li>
+                    </ol>
+                    
+                  </section>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <section class="module">
+  
+                    <h1 class="module__heading module__heading--a">Soft Skills</h1>
+                  
+                    <ol class="custom-bullet custom-bullet--a">
+                      <li>Critical Thinking</li>
+                      <li>Feedback Analysis</li>
+                      <li>Creativity</li>
+                      <li>Enterpreneurial Mindset</li>
+                      <li>Networking</li>
+                    </ol>
+                    
+                  </section>
+            </div>
+</div>
+</div>
+</div>
 	
-    jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},3000);
-	});
-});</script>
+<!--
+Commenting out the "Courses" section according to ANmol's instructions on 27th February, 2019.
+-->
+<!--
+  <h3 class="text-center">Courses</h3>
+  <p class="text-center course">Journalism</p>
+        <p class="text-center course">Mass Communication</p>
+        <p class="text-center course">Advertising</p>
+        <p class="text-center course">Public Relations</p>
+        <p class="text-center course">Current &amp; International Affairs</p>
+  <p class="text-center course">Media - Print, Television, Radio, Film</p>
+  <p class="text-center course">Business Communications</p>
+  <p class="text-center course">Economics</p>
+  <p class="text-center course">Finance</p>
+  <p class="text-center course">Statistics</p>
+  <p class="text-center course">Consumer Behaviour</p>
+  <p class="text-center course">Marketing</p>
+  <p class="text-center course">Human Resources</p>
+  <p class="text-center course">Strategic Management</p>
+  <p class="text-center course">Business Ethics</p>
+  <p class="text-center course">Corporate Social Responsibity</p>
+  <p class="text-center course">Operation and Organizational Behaviour</p>
+  <br>      -->
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+        <script>
+                $(document).ready(function(){
+                    $(".navbar-toggle").click(function(){
+                        $(".nav").toggleClass("intro");
+                    });
+                });
+                </script>
 </body>
 </html>
