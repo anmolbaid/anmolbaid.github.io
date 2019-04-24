@@ -79,6 +79,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .colorlib-nav .top-menu {
   padding: 25px 0; }
 
+.colorlib-nav
+{
+  background-color: #222;
+}
+
 .colorlib-nav #colorlib-logo {
   font-size: 24px;
   margin: 0;
@@ -88,7 +93,7 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase; }
   .colorlib-nav #colorlib-logo a {
     position: relative;
-    color: #000; }
+    color:white; }
 
 @media screen and (max-width: 768px) {
   .colorlib-nav .menu-1 {
@@ -109,7 +114,7 @@ h1, h2, h3, h4, h5, h6, figure {
       position: relative;
       font-size: 12px;
       padding: 10px 15px;
-      color: rgba(0, 0, 0, 0.7);
+      color: white;
       -webkit-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s; }
